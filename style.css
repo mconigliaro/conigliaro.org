@@ -1,0 +1,48 @@
+body {
+    align-items: center;
+    background-color: #444;
+    display: flex;
+    flex-direction: column;
+}
+
+main {
+    background-color: #fff;
+    border-radius: 8px;
+    box-shadow: 8px 8px 16px #000;
+    font-family: monospace;
+    margin-top: 5%;
+    padding: 32px;
+}
+
+img {
+    border-radius: 100px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+h1 {
+    margin-bottom: 16px;
+    margin-top: 0;
+    text-align: center;
+}
+
+h2 {
+    margin-bottom: 0;
+}
+
+ul {
+    list-style-position: inside;
+    margin: 0;
+    padding: 0;
+}
+
+a:link,
+a:visited {
+    color: #248;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
